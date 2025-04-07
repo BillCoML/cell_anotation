@@ -1,0 +1,7 @@
+tf217/
+
+#ignore all data since it is very large
+data/
+
+
+__pycache__/
