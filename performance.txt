@@ -38,3 +38,25 @@ Classification report for Random Forest with n_est= 150
     accuracy                           0.63       100
    macro avg       0.77      0.63      0.62       100
 weighted avg       0.77      0.63      0.62       100
+
+
+
+///////////////////////////////////////////////////////
+Classification report for SVMs (kernel = linear) with c=1
+
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        10
+           2       0.82      0.90      0.86        10
+           3       0.77      1.00      0.87        10
+           4       0.82      0.90      0.86        10
+           5       1.00      1.00      1.00        10
+           6       1.00      0.90      0.95        10
+           7       0.75      0.90      0.82        10
+           8       0.88      0.70      0.78        10
+           9       1.00      0.80      0.89        10
+          10       1.00      0.80      0.89        10
+
+    accuracy                           0.89       100
+   macro avg       0.90      0.89      0.89       100
+weighted avg       0.90      0.89      0.89       100
