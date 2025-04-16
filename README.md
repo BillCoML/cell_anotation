@@ -36,7 +36,7 @@ To build an accurate model that predicts cell types using gene expression levels
 - Developed a stacked ensemble model from top performers
 
 ## 📊 Result
-The Neural Network model showed the best macro-F1 score at **98%** and balanced performance across all cell types, effectively handling extreme class imbalance.
+The Neural Network model showed the best weighted-F1 score at **98%** and balanced performance across all cell types, effectively handling extreme class imbalance.
 
 ## 📬 Contact
 **Bill Co** – bill130804@gmail.com  
