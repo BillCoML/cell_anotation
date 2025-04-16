@@ -1,7 +1,8 @@
+#just a VENV file
 tf217/
 
 #ignore all data since it is very large
-data/
-clean_data/
+
+.vscode/
 
 __pycache__/
