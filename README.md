@@ -5,16 +5,16 @@
 
 This repository contains code and experiments for the project **"Cell Type Annotation Using Machine Learning"**, where I classify cell types based on single-cell RNA sequencing data.
 
-## 📂 Files
+## Files
 
 - `cell_type.ipynb`: Main notebook containing full pipeline from data preprocessing, feature engineering, to model evaluation.
 - `data/train.rds`, `data/test.rds`: Raw training and testing datasets (not uploaded).
 
-## 🔬 Project Objective
+## Project Objective
 
 To build an accurate model that predicts cell types using gene expression levels from single-cell RNA-seq data.
 
-## 🧪 Workflow Summary
+## Workflow Summary
 
 ### 1. Data Loading and EDA
 - Loaded `.rds` data files using `pyreadr`
@@ -35,13 +35,8 @@ To build an accurate model that predicts cell types using gene expression levels
 - Computed 95% confidence intervals for each metric using t-distributions
 - Developed a stacked ensemble model from top performers
 
-## 📊 Result
+## Result
 The Neural Network model showed the best weighted-F1 score at **98%** and balanced performance across all cell types, effectively handling extreme class imbalance.
-
-## 📬 Contact
-**Bill Co** – bill130804@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/bill-co-6367a3248) | [GitHub](https://github.com/BillCoML)
-
 ---
 
 > This project was part of a university coursework on machine learning and bioinformatics.
